@@ -1,4 +1,3 @@
-
 w = int(input())
 h = int(input())
 LINES = []
@@ -14,7 +13,7 @@ for y in range(h):
         character = LINES[y][x]
         if character == '.':
             neighbours = []
-            if y-1 >=0 and x-1 >=0: ## Cette succession de if n'est pas élégante du tout !!! -> TROUVER UN AUTRE ALGORITHME PLUS EFFICACE ET PLUS ELEGANT !!!!
+            if y-1 >=0 and x-1 >=0: ## TO BE IMPROVED !!!
                 neighbours.append(LINES[y-1][x-1])
             if y+1 <=h-1 and x+1 <=w-1:
                 neighbours.append(LINES[y+1][x+1])
