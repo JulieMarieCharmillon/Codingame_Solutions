@@ -6,3 +6,4 @@
  - markov_text_generation.py : https://www.codingame.com/training/easy/markov-text-generation
  - run_lenght_encoding.py : https://www.codingame.com/multiplayer/clashofcode
  - japanese_BINGO_game.py : https://www.codingame.com/multiplayer/clashofcode
+ - succession.py : https://www.codingame.com/training/easy/order-of-succession
